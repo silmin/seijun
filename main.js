@@ -224,7 +224,7 @@ window.onload = function() {
         tweetLabel.addEventListener('touchstart', function() {
             let EUC = encodeURIComponent;
             let tweetUrl = "http://twitter.com/?status=";
-            let message = "響木アオちゃんファンゲーム【清純ですよ？】 あなたの清純度は" + Math.floor(score / 600 * 100)+ "%でした！遊んでくれてありがとう！ ゲームのリンクはココ！ https://silmin.github.io #HibikiAo";
+            let message = "響木アオちゃんファンゲーム【清純ですよ？】 あなたの清純度は" + Math.floor(score / 600 * 100)+ "%でした！遊んでくれてありがとう！ ゲームのリンクはココ！ https://silmin.github.io/seijun #HibikiAo";
 
             location.href = tweetUrl + EUC(message);
         });
