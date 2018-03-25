@@ -1,7 +1,7 @@
 enchant();
 
 
-SoundLoop = Class.create(Sprite, {
+let SoundLoop = Class.create(Sprite, {
   Sound,
   SFlg:0,
   game,
