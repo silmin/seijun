@@ -231,9 +231,13 @@ window.onload = function() {
 
         scene[RESULT].addEventListener('enter', function() {
             scene[RESULT].addChild(myAccountLabel);
+            /*
             bgm = core.assets['./sound/result.mp3'];
             bgm.play();
             bgm.volume = 0.3;
+            */
+            let bgm = new SoundLoop(core);
+            bgm.Set('./sound/result.mp3');
 
             if(score < 0) score = 0;
             resultScoreLabel.text = "清純度 : " + Math.floor(score / 600 * 100) + " %";
