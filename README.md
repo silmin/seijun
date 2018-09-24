@@ -13,7 +13,7 @@ https://twitter.com/hibiki_ao
 enchant.js
 
 ## ゲームリンク
-https://silmin.github.io/seijun/
+[清純ですよ？](https://silmin.github.io/seijun/)
 
 ## 言い訳
 クオリティに関しては春休みの暇な時間に書いたくらいなのでガバガバです。  
